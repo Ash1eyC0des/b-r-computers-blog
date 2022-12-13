@@ -1,5 +1,7 @@
 backend:
-  name: test-repo
+  name: github
+  repo: Ash1eyC0des/b-r-computers-blog
+  branch: main
 
 media_folder: static/assets
 public_folder: /assets
