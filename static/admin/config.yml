@@ -12,7 +12,9 @@ collections:
     folder: blog
     create: true
     fields:
-      - { name: path, label: Path }
       - { name: date, label: Date, widget: datetime }
+      - { name: image, label: Image, widget: image, allow_multiple: false, media_folder: /static/images,  }
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }
+      - { name: categories, label: Categories, widget: select, multiple: true, options: ['Computer', 'Micro Chip Repair', 'Technology', 'iPhone', 'Replace'] }
+      - { name: author, label: Author }

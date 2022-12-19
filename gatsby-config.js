@@ -3,7 +3,7 @@
  */
 module.exports = {
 	siteMetadata: {
-		title: `B & R Computers Blog`,
+		title: `B & R Computers`,
 		siteUrl: `https://www.yourdomain.tld`,
 	},
 	plugins: [
@@ -34,6 +34,20 @@ module.exports = {
 				path: './src/pages/',
 			},
 			__key: 'pages',
+		},
+		{
+			resolve: 'gatsby-source-filesystem',
+			options: {
+				name: `blog`,
+				path: `${__dirname}/blog`,
+			},
+		},
+		`gatsby-transformer-remark`,
+		{
+			resolve: 'gatsby-plugin-manifest',
+			options: {
+				icon: 'src/images/favicon.png',
+			},
 		},
 	],
 }
