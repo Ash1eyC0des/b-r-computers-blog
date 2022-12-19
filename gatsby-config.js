@@ -6,6 +6,7 @@ module.exports = {
 		title: `B & R Computers`,
 		siteUrl: `https://www.yourdomain.tld`,
 	},
+	pathPrefix: '/blog',
 	plugins: [
 		'gatsby-plugin-netlify-cms',
 		'gatsby-plugin-image',
@@ -49,5 +50,6 @@ module.exports = {
 				icon: 'src/images/favicon.png',
 			},
 		},
+		'gatsby-transformer-sharp',
 	],
 }

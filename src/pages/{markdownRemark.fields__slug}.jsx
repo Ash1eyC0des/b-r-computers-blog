@@ -8,7 +8,6 @@ export default function BlogPostTemplate({ data }) {
 	const date = frontmatter.date.split(' ')
 	const month = date[0]
 	const day = date[1]
-	const year = date[2]
 	const slugs = allMarkdownRemark.nodes.map((n) => n.fields.slug)
 
 	return (

@@ -1,6 +1,6 @@
 ---
 date: 2022-12-05T13:13:25.065Z
-image: /static/images/ddp_5768.jpg
+image: /images/ddp_5768.jpg
 title: My Second Post
 categories:
   - Computer
