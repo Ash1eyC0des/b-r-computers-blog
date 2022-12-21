@@ -16,7 +16,7 @@ const Layout = ({ pageTitle, children }) => {
 	`)
 	return (
 		<>
-			<body className='body loader-loading'>
+			<body className='body'>
 				<header className='header'>
 					<input
 						id='header-default'
