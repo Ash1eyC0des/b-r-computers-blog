@@ -12,8 +12,7 @@ const ScrollButton = () => {
 		}
 	}
 
-	if (typeof window == 'undefined') return
-	else {
+	if (typeof window !== 'undefined') {
 		window.addEventListener('scroll', toggleVisible)
 	}
 

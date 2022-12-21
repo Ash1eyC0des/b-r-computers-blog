@@ -8,7 +8,9 @@ export default function BlogPostTemplate({ data }) {
 	const date = frontmatter.date.split(' ')
 	const month = date[0]
 	const day = date[1]
-	const slugs = allMarkdownRemark.nodes.map((n) => n.fields.slug)
+	const slug = fields.slug
+	const slugs = allMarkdownRemark.nodes.map(({ fields }) => fields.slug)
+	console.log(slug)
 
 	return (
 		<Layout pageTitle={frontmatter.title}>
@@ -107,17 +109,17 @@ export default function BlogPostTemplate({ data }) {
 					</div>
 				</div>
 				<div className='clearfix' data-inview-showup='showup-translate-up'>
-					{fields.slug !== slugs.shift() && (
+					{slug !== slugs[0] && (
 						<Link
-							to={slugs[slugs.indexOf(fields.slug) - 1]}
+							to={slugs[slugs.indexOf(slug) - 1]}
 							className='btn btn-md btns-bordered pull-left text-upper'
 						>
 							previous
 						</Link>
 					)}
-					{fields.slug !== slugs.pop() && (
+					{slug !== slugs[slugs.length - 1] && (
 						<Link
-							to={slugs[slugs.indexOf(fields.slug) + 1]}
+							to={slugs[slugs.indexOf(slug) + 1]}
 							className='btn btn-md btns-bordered pull-right text-upper'
 						>
 							next
@@ -144,7 +146,7 @@ export const pageQuery = graphql`
 				slug
 			}
 		}
-		allMarkdownRemark(sort: { frontmatter: { date: DESC } }) {
+		allMarkdownRemark(sort: { frontmatter: { date: ASC } }) {
 			nodes {
 				fields {
 					slug
