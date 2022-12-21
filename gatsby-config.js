@@ -2,6 +2,9 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+	// flags: {
+	// 	DEV_SSR: true,
+	// },
 	siteMetadata: {
 		title: `B & R Computers`,
 		siteUrl: `https://www.yourdomain.tld`,
@@ -17,7 +20,6 @@ module.exports = {
 				icon: 'src/images/icon.png',
 			},
 		},
-		'gatsby-plugin-mdx',
 		'gatsby-plugin-sharp',
 		'gatsby-transformer-sharp',
 		{
@@ -50,6 +52,5 @@ module.exports = {
 				icon: 'src/images/favicon.png',
 			},
 		},
-		'gatsby-transformer-sharp',
 	],
 }

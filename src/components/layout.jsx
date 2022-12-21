@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Link, useStaticQuery, graphql } from 'gatsby'
+import { useStaticQuery, graphql } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import brSmall from '../images/br-small.webp'
 import ScrollButton from './ScrollButton'
@@ -22,7 +22,7 @@ const Layout = ({ pageTitle, children }) => {
 						id='header-default'
 						type='radio'
 						className='collapse'
-						checked='checked'
+						defaultChecked='checked'
 						name='siteheader'
 					/>
 					<input
@@ -129,13 +129,13 @@ const Layout = ({ pageTitle, children }) => {
 							<div className='header-toggler pull-right xs-shown'>
 								<label
 									className='header-shown-sign'
-									for='header-hidden'
+									htmlFor='header-hidden'
 								>
 									<i className='fas fa-times' aria-hidden='true'></i>
 								</label>
 								<label
 									className='header-hidden-sign'
-									for='header-shown'
+									htmlFor='header-shown'
 								>
 									<i className='fas fa-bars' aria-hidden='true'></i>
 								</label>
@@ -330,8 +330,8 @@ const Layout = ({ pageTitle, children }) => {
 					</div>
 				</section>
 				<div className='clearfix page-sidebar-right container'>
-					<div class='page-content'>
-						<section class='content-section'>{children}</section>
+					<div className='page-content'>
+						<section className='content-section'>{children}</section>
 					</div>
 					<aside className='page-sidebar content-section'>
 						<section

@@ -44,13 +44,13 @@ export default function BlogPostTemplate({ data }) {
 					{frontmatter.categories.map((c, i, a) => {
 						if (i !== a.length - 1) {
 							return (
-								<a className='text-upper' href='/'>
+								<a key={c} className='text-upper' href='/'>
 									{c},{' '}
 								</a>
 							)
 						} else {
 							return (
-								<a className='text-upper' href='/'>
+								<a key={c} className='text-upper' href='/'>
 									{c}
 								</a>
 							)
@@ -118,7 +118,6 @@ export default function BlogPostTemplate({ data }) {
 					{fields.slug !== slugs.pop() && (
 						<Link
 							to={slugs[slugs.indexOf(fields.slug) + 1]}
-							href='article.html'
 							className='btn btn-md btns-bordered pull-right text-upper'
 						>
 							next

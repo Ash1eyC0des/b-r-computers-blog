@@ -12,6 +12,11 @@ const ScrollButton = () => {
 		}
 	}
 
+	if (typeof window == 'undefined') return
+	else {
+		window.addEventListener('scroll', toggleVisible)
+	}
+
 	const scrollToTop = () => {
 		window.scrollTo({
 			top: 0,
@@ -20,8 +25,6 @@ const ScrollButton = () => {
 		in place of 'smooth' */
 		})
 	}
-
-	window.addEventListener('scroll', toggleVisible)
 
 	return (
 		<a

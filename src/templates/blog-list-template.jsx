@@ -1,9 +1,8 @@
 import * as React from 'react'
 import Layout from '../components/layout'
-import Seo from '../components/seo'
 import { graphql, Link } from 'gatsby'
 
-const BlogList = ({ data, pageContext }) => {
+export default function BlogList({ data, pageContext }) {
 	const posts = data.allMarkdownRemark.edges
 	const { currentPage, numPages } = pageContext
 	const isFirst = currentPage === 1
@@ -24,16 +23,15 @@ const BlogList = ({ data, pageContext }) => {
 					const excerpt = node.excerpt
 					const author = node.frontmatter.author
 					const image = node.frontmatter.image
+					const categories = node.frontmatter.categories
 
 					return (
 						<article
+							key={slug}
 							className='article'
 							data-inview-showup='showup-translate-up'
 						>
-							<a
-								href={`.${slug}`}
-								className='block-link text-center offs-lg'
-							>
+							<a href={slug} className='block-link text-center offs-lg'>
 								<span className='image-wrap'>
 									<img className='image' src={image} alt='' />
 								</span>
@@ -63,16 +61,16 @@ const BlogList = ({ data, pageContext }) => {
 							</h3>
 							<div className='category'>
 								Categories:{' '}
-								{node.frontmatter.categories.map((c, i, a) => {
+								{categories.map((c, i, a) => {
 									if (i !== a.length - 1) {
 										return (
-											<a className='text-upper' href='/'>
+											<a key={c} className='text-upper' href='/'>
 												{c},{' '}
 											</a>
 										)
 									} else {
 										return (
-											<a className='text-upper' href='/'>
+											<a key={c} className='text-upper' href='/'>
 												{c}
 											</a>
 										)
@@ -157,6 +155,4 @@ export const blogListQuery = graphql`
 	}
 `
 
-export const Head = () => <Seo title='Blog' />
-
-export default BlogList
+// export const Head = () => <Seo title='Blog' />
