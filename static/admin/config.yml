@@ -1,5 +1,5 @@
 backend:
-  name: github
+  name: git-gateway
   repo: Ash1eyC0des/b-r-computers-blog
   branch: main
 
