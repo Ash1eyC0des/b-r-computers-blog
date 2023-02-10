@@ -16,5 +16,5 @@ collections:
       - { name: image, label: Image, widget: image, allow_multiple: false }
       - { name: title, label: Title }
       - { name: body, label: Body, widget: markdown }
-      - { name: categories, label: Categories, widget: select, multiple: true, options: ['Computer', 'Micro Chip Repair', 'Technology', 'iPhone', 'Replace'] }
+      - { name: tags, label: Categories, widget: select, multiple: true, options: ['Custom Desktops', 'General Hardware', 'General Software', 'How Tos', 'Refurbished Computers', 'Repairs and Upgrades', 'Scams', 'Tips and Tricks'] }
       - { name: author, label: Author }

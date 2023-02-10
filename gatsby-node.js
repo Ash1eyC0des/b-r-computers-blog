@@ -1,22 +1,42 @@
 const path = require(`path`)
+const _ = require('lodash')
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
 exports.createPages = async function ({ actions, graphql }) {
 	const { createPage } = actions
-	const { data } = await graphql(`
-		query {
-			allMarkdownRemark {
-				nodes {
-					fields {
-						slug
+	const result = await graphql(`
+		{
+			postsRemark: allMarkdownRemark(
+				sort: { frontmatter: { date: DESC } }
+				limit: 2000
+			) {
+				edges {
+					node {
+						fields {
+							slug
+						}
+						frontmatter {
+							tags
+						}
 					}
+				}
+			}
+			tagsGroup: allMarkdownRemark(limit: 2000) {
+				group(field: { frontmatter: { tags: SELECT } }) {
+					fieldValue
 				}
 			}
 		}
 	`)
 
+	// handle errors
+	if (result.errors) {
+		reporter.panicOnBuild(`Error while running GraphQL query.`)
+		return
+	}
+
 	// Create blog post list pages
-	const posts = data.allMarkdownRemark.nodes
+	const posts = result.data.postsRemark.edges
 	const postsPerPage = 3
 	const numPages = Math.ceil(posts.length / postsPerPage)
 
@@ -29,6 +49,19 @@ exports.createPages = async function ({ actions, graphql }) {
 				skip: i * postsPerPage,
 				numPages,
 				currentPage: i + 1,
+			},
+		})
+	})
+
+	// Create category pages
+	const tags = result.data.tagsGroup.group
+
+	tags.forEach((tag, i) => {
+		createPage({
+			path: `/categories/${_.kebabCase(tag.fieldValue)}/`,
+			component: path.resolve('./src/templates/categories.jsx'),
+			context: {
+				tag: tag.fieldValue,
 			},
 		})
 	})

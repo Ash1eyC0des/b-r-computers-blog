@@ -1,19 +1,23 @@
 import * as React from 'react'
-import { useStaticQuery, graphql } from 'gatsby'
+import { useStaticQuery, graphql, Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import brSmall from '../images/br-small.webp'
 import ScrollButton from './ScrollButton'
+const _ = require('lodash')
 
 const Layout = ({ pageTitle, children }) => {
 	const data = useStaticQuery(graphql`
 		query {
-			site {
-				siteMetadata {
-					title
+			allMarkdownRemark {
+				group(field: { frontmatter: { tags: SELECT } }) {
+					fieldValue
 				}
 			}
 		}
 	`)
+
+	const tags = data.allMarkdownRemark.group
+
 	return (
 		<>
 			<body className='body'>
@@ -409,55 +413,102 @@ const Layout = ({ pageTitle, children }) => {
 							<h5 className='shift-sm offs-md'>Categories</h5>
 
 							<ul className='list text-medium solid-color text-upper'>
-								<li>
-									<a href='#'>
+								{tags.map((tag) => {
+									return (
+										<li>
+											<Link
+												to={`/categories/${_.kebabCase(
+													tag.fieldValue
+												)}/`}
+											>
+												<i
+													className='fas fa-angle-right'
+													aria-hidden='true'
+												></i>
+												&nbsp;&nbsp;&nbsp;&nbsp;{tag.fieldValue}
+											</Link>
+										</li>
+									)
+								})}
+								{/* <li>
+									<a href='../categories/custom-desktops'>
 										<i
 											className='fas fa-angle-right'
 											aria-hidden='true'
 										></i>
-										&nbsp;&nbsp;&nbsp;&nbsp;computer
+										&nbsp;&nbsp;&nbsp;&nbsp;Custom Desktops
 									</a>
 								</li>
 
 								<li>
-									<a href='#'>
+									<a href='../categories/general-hardware'>
 										<i
 											className='fas fa-angle-right'
 											aria-hidden='true'
 										></i>
-										&nbsp;&nbsp;&nbsp;&nbsp;micro chip repair
+										&nbsp;&nbsp;&nbsp;&nbsp;General Hardware
 									</a>
 								</li>
 
 								<li>
-									<a href='#'>
+									<a href='../categories/general-software'>
 										<i
 											className='fas fa-angle-right'
 											aria-hidden='true'
 										></i>
-										&nbsp;&nbsp;&nbsp;&nbsp;technology
+										&nbsp;&nbsp;&nbsp;&nbsp;General Software
 									</a>
 								</li>
 
 								<li>
-									<a href='#'>
+									<a href='../categories/how-tos'>
 										<i
 											className='fas fa-angle-right'
 											aria-hidden='true'
 										></i>
-										&nbsp;&nbsp;&nbsp;&nbsp;iphone
+										&nbsp;&nbsp;&nbsp;&nbsp;How Tos
 									</a>
 								</li>
 
 								<li>
-									<a href='#'>
+									<a href='../categories/refurbished-computers'>
 										<i
 											className='fas fa-angle-right'
 											aria-hidden='true'
 										></i>
-										&nbsp;&nbsp;&nbsp;&nbsp;replace
+										&nbsp;&nbsp;&nbsp;&nbsp;Refurbished Computers
 									</a>
 								</li>
+
+								<li>
+									<a href='../categories/repairs-and-upgrades'>
+										<i
+											className='fas fa-angle-right'
+											aria-hidden='true'
+										></i>
+										&nbsp;&nbsp;&nbsp;&nbsp;Repairs and Upgrades
+									</a>
+								</li>
+
+								<li>
+									<a href='../categories/scams'>
+										<i
+											className='fas fa-angle-right'
+											aria-hidden='true'
+										></i>
+										&nbsp;&nbsp;&nbsp;&nbsp;Scams
+									</a>
+								</li>
+
+								<li>
+									<a href='../categories/tips-and-tricks'>
+										<i
+											className='fas fa-angle-right'
+											aria-hidden='true'
+										></i>
+										&nbsp;&nbsp;&nbsp;&nbsp;Tips and Tricks
+									</a>
+								</li> */}
 							</ul>
 						</section>
 

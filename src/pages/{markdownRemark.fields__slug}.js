@@ -10,7 +10,7 @@ export default function BlogPostTemplate({ data }) {
 	const day = date[1]
 	const slug = fields.slug
 	const slugs = allMarkdownRemark.nodes.map(({ fields }) => fields.slug)
-	console.log(slug)
+	const tags = frontmatter.tags
 
 	return (
 		<Layout pageTitle={frontmatter.title}>
@@ -43,7 +43,7 @@ export default function BlogPostTemplate({ data }) {
 				/>
 				<div className='category' data-inview-showup='showup-translate-up'>
 					Categories:{' '}
-					{frontmatter.categories.map((c, i, a) => {
+					{tags.map((c, i, a) => {
 						if (i !== a.length - 1) {
 							return (
 								<a key={c} className='text-upper' href='/'>
@@ -139,7 +139,7 @@ export const pageQuery = graphql`
 				date(formatString: "MMM D YYYY")
 				image
 				title
-				categories
+				tags
 				author
 			}
 			fields {
