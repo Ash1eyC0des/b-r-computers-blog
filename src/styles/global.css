@@ -1,3 +1,23 @@
+@font-face {
+  font-family: 'Font Awesome\ 5 Brands';
+  src: url('./fontawesome/webfonts/fa-brands-400.woff');
+}
+
+@font-face {
+  font-family: 'Font Awesome\ 5 Free';
+  src: url('./fontawesome/webfonts/fa-regular-400.woff');
+}
+
+@font-face {
+  font-family: 'Font Awesome\ 5 Free';
+  src: url('./fontawesome/webfonts/fa-solid-900.woff');
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+}
+
 /*! Pentix v.1.0 - 2021-11-07 */
 
 article,
