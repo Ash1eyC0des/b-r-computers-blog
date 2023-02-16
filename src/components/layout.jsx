@@ -125,7 +125,7 @@ const Layout = ({ pageTitle, children }) => {
 					<nav className='stick-menu menu-wrap simple line'>
 						<div className='menu-container menu-row'>
 							<div className='logo'>
-								<a href='https://www.bandrcomputers.com'>
+								<a href='/'>
 									<img src={brSmall} alt='B & R Computers' />
 								</a>
 							</div>
@@ -150,7 +150,7 @@ const Layout = ({ pageTitle, children }) => {
 							<div className='menu'>
 								<ul className='menu-items menu-no-sides'>
 									<li>
-										<a href='https://www.bandrcomputers.com/'>Home</a>
+										<a href='/'>Home</a>
 										<span className='toggle-icon'>
 											<i
 												className='fas fa-chevron-down'
@@ -160,9 +160,7 @@ const Layout = ({ pageTitle, children }) => {
 									</li>
 
 									<li>
-										<a href='https://www.bandrcomputers.com/services'>
-											Services
-										</a>
+										<a href='/services'>Services</a>
 
 										<span className='toggle-icon'>
 											<i
@@ -173,37 +171,37 @@ const Layout = ({ pageTitle, children }) => {
 
 										<ul>
 											<li>
-												<a href='https://www.bandrcomputers.com/services/repairs-upgrades'>
+												<a href='/services/repairs-upgrades'>
 													Repairs & Upgrades
 												</a>
 											</li>
 
 											<li>
-												<a href='https://www.bandrcomputers.com/services/custom-desktops'>
+												<a href='/services/custom-desktops'>
 													Custom-Built Desktops
 												</a>
 											</li>
 
 											<li>
-												<a href='https://www.bandrcomputers.com/services/managed-services'>
+												<a href='/services/managed-services'>
 													Managed Services
 												</a>
 											</li>
 
 											<li>
-												<a href='https://www.bandrcomputers.com/services/remote-support'>
+												<a href='/services/remote-support'>
 													Remote Support
 												</a>
 											</li>
 
 											<li>
-												<a href='https://www.bandrcomputers.com/services/refurbished-computers'>
+												<a href='/services/refurbished-computers'>
 													Refurbished Computers
 												</a>
 											</li>
 
 											<li>
-												<a href='https://www.bandrcomputers.com/services/on-site'>
+												<a href='/services/on-site'>
 													On-Site Consultations / Repairs
 												</a>
 											</li>
@@ -220,9 +218,7 @@ const Layout = ({ pageTitle, children }) => {
 									</li>
 
 									<li>
-										<a href='https://www.bandrcomputers.com/portal'>
-											Customer Portal
-										</a>
+										<a href='/portal'>Customer Portal</a>
 
 										<span className='toggle-icon'>
 											<i
@@ -233,19 +229,17 @@ const Layout = ({ pageTitle, children }) => {
 
 										<ul>
 											<li>
-												<a href='https://www.bandrcomputers.com/portal#signIn'>
-													Sign In
-												</a>
+												<a href='/portal#signIn'>Sign In</a>
 											</li>
 
 											<li>
-												<a href='https://www.bandrcomputers.com/portal#existing'>
+												<a href='/portal#existing'>
 													Existing Ticket Lookup
 												</a>
 											</li>
 
 											<li>
-												<a href='https://www.bandrcomputers.com/portal#new'>
+												<a href='/portal#new'>
 													Create a New Ticket
 												</a>
 											</li>
@@ -253,19 +247,15 @@ const Layout = ({ pageTitle, children }) => {
 									</li>
 
 									<li>
-										<a href='/'>Blog</a>
+										<a href='/blog'>Blog</a>
 									</li>
 
 									<li>
-										<a href='https://www.bandrcomputers.com/about-us'>
-											About Us
-										</a>
+										<a href='/about-us'>About Us</a>
 									</li>
 
 									<li>
-										<a href='https://www.bandrcomputers.com/contact-us'>
-											Contact Us
-										</a>
+										<a href='/contact-us'>Contact Us</a>
 
 										<span className='toggle-icon'>
 											<i
@@ -276,9 +266,7 @@ const Layout = ({ pageTitle, children }) => {
 
 										<ul className='left'>
 											<li>
-												<a href='https://www.bandrcomputers.com/contact-us'>
-													Contact Us
-												</a>
+												<a href='/contact-us'>Contact Us</a>
 											</li>
 
 											<li>
@@ -318,7 +306,7 @@ const Layout = ({ pageTitle, children }) => {
 						>
 							<ul className='page-path'>
 								<li>
-									<a href='https://www.bandrcomputers.com'>Home</a>
+									<a href='/'>Home</a>
 								</li>
 
 								<li className='path-separator'>
@@ -348,7 +336,7 @@ const Layout = ({ pageTitle, children }) => {
 								<li>
 									<a
 										className='muted-solid-link block-md'
-										href='https://www.bandrcomputers.com/services/repairs-upgrades'
+										href='/services/repairs-upgrades'
 									>
 										Repairs & Upgrades
 									</a>
@@ -357,7 +345,7 @@ const Layout = ({ pageTitle, children }) => {
 								<li>
 									<a
 										className='muted-solid-link block-md'
-										href='https://www.bandrcomputers.com/services/custom-desktops'
+										href='/services/custom-desktops'
 									>
 										Custom-Built Desktops
 									</a>
@@ -366,7 +354,7 @@ const Layout = ({ pageTitle, children }) => {
 								<li>
 									<a
 										className='muted-solid-link block-md'
-										href='https://www.bandrcomputers.com/services/managed-services'
+										href='/services/managed-services'
 									>
 										Managed Services
 									</a>
@@ -375,7 +363,7 @@ const Layout = ({ pageTitle, children }) => {
 								<li>
 									<a
 										className='muted-solid-link block-md'
-										href='https://www.bandrcomputers.com/services/remote-support'
+										href='/services/remote-support'
 									>
 										Remote Support
 									</a>
@@ -384,7 +372,7 @@ const Layout = ({ pageTitle, children }) => {
 								<li>
 									<a
 										className='muted-solid-link block-md'
-										href='https://www.bandrcomputers.com/services/refurbished-computers'
+										href='/services/refurbished-computers'
 									>
 										Refurbished Computers
 									</a>
@@ -393,7 +381,7 @@ const Layout = ({ pageTitle, children }) => {
 								<li>
 									<a
 										className='muted-solid-link block-md'
-										href='https://www.bandrcomputers.com/services/on-site'
+										href='/services/on-site'
 									>
 										On-Site Consultations / Repairs
 									</a>
@@ -565,17 +553,14 @@ const Layout = ({ pageTitle, children }) => {
 											</div>
 											<ul className='list'>
 												<li>
-													<a
-														className='content-link'
-														href='https://www.bandrcomputers.com/'
-													>
+													<a className='content-link' href='/'>
 														Home
 													</a>
 												</li>
 												<li>
 													<a
 														className='content-link'
-														href='https://www.bandrcomputers.com/portal'
+														href='/portal'
 													>
 														Customer Portal
 													</a>
@@ -590,9 +575,15 @@ const Layout = ({ pageTitle, children }) => {
 													</a>
 												</li>
 												<li>
+													<a className='content-link' href='/blog'>
+														Blog
+													</a>
+												</li>
+
+												<li>
 													<a
 														className='content-link'
-														href='https://www.bandrcomputers.com/services'
+														href='/services'
 													>
 														Services
 													</a>
@@ -600,7 +591,7 @@ const Layout = ({ pageTitle, children }) => {
 												<li>
 													<a
 														className='content-link'
-														href='https://www.bandrcomputers.com/about-us'
+														href='/about-us'
 													>
 														About Us
 													</a>
@@ -608,7 +599,7 @@ const Layout = ({ pageTitle, children }) => {
 												<li>
 													<a
 														className='content-link'
-														href='https://www.bandrcomputers.com/terms'
+														href='/terms'
 													>
 														Terms of Use
 													</a>
@@ -616,7 +607,7 @@ const Layout = ({ pageTitle, children }) => {
 												<li>
 													<a
 														className='content-link'
-														href='https://www.bandrcomputers.com/privacy'
+														href='/privacy'
 													>
 														Privacy Policy
 													</a>
@@ -624,7 +615,7 @@ const Layout = ({ pageTitle, children }) => {
 												<li>
 													<a
 														className='content-link'
-														href='https://www.bandrcomputers.com/contact-us'
+														href='/contact-us'
 													>
 														Contact Us
 													</a>
@@ -640,7 +631,7 @@ const Layout = ({ pageTitle, children }) => {
 												<li>
 													<a
 														className='content-link'
-														href='https://www.bandrcomputers.com/services/repairs-upgrades'
+														href='/services/repairs-upgrades'
 													>
 														Repairs &amp; Upgrades
 													</a>
@@ -649,7 +640,7 @@ const Layout = ({ pageTitle, children }) => {
 												<li>
 													<a
 														className='content-link'
-														href='https://www.bandrcomputers.com/services/custom-desktops'
+														href='/services/custom-desktops'
 													>
 														Custom-Built Desktops
 													</a>
@@ -658,7 +649,7 @@ const Layout = ({ pageTitle, children }) => {
 												<li>
 													<a
 														className='content-link'
-														href='https://www.bandrcomputers.com/services/managed-services'
+														href='/services/managed-services'
 													>
 														Managed Services
 													</a>
@@ -667,7 +658,7 @@ const Layout = ({ pageTitle, children }) => {
 												<li>
 													<a
 														className='content-link'
-														href='https://www.bandrcomputers.com/services/remote-support'
+														href='/services/remote-support'
 													>
 														Remote Support
 													</a>
@@ -676,7 +667,7 @@ const Layout = ({ pageTitle, children }) => {
 												<li>
 													<a
 														className='content-link'
-														href='https://www.bandrcomputers.com/services/refurbished-computers'
+														href='/services/refurbished-computers'
 													>
 														Refurbished Computer Sales
 													</a>
@@ -685,7 +676,7 @@ const Layout = ({ pageTitle, children }) => {
 												<li>
 													<a
 														className='content-link'
-														href='https://www.bandrcomputers.com/services/on-site'
+														href='/services/on-site'
 													>
 														On-Site Consultations / Repairs
 													</a>

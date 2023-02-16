@@ -1,3 +1,4 @@
 import '@fontsource/raleway'
-import './src/styles/fontawesome/all.min.css'
+import '@fontsource/montserrat'
 import './src/styles/global.css'
+import './src/styles/fontawesome/all.min.css'
