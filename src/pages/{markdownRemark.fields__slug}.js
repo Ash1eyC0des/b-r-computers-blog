@@ -38,7 +38,7 @@ export default function BlogPostTemplate({ data }) {
 				<img
 					className='col-12 offs-md'
 					data-inview-showup='showup-translate-up'
-					src={`/blog/${frontmatter.image}`}
+					src={frontmatter.image}
 					alt={frontmatter.title}
 				/>
 				<div className='category' data-inview-showup='showup-translate-up'>

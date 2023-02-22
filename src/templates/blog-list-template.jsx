@@ -31,16 +31,9 @@ export default function BlogList({ data, pageContext }) {
 							className='article'
 							data-inview-showup='showup-translate-up'
 						>
-							<a
-								href={`/blog/${slug}`}
-								className='block-link text-center offs-lg'
-							>
+							<a href={slug} className='block-link text-center offs-lg'>
 								<span className='image-wrap'>
-									<img
-										className='image'
-										src={`/blog/${image}`}
-										alt=''
-									/>
+									<img className='image' src={image} alt='' />
 								</span>
 								<span className='hover'>
 									<span className='hover-show'>
@@ -94,7 +87,7 @@ export default function BlogList({ data, pageContext }) {
 								</div>
 								<div className='col text-right'>
 									<a
-										href={`/blog/${slug}`}
+										href={slug}
 										className='btn btn-md btns-bordered text-upper'
 									>
 										read more

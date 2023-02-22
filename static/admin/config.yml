@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  repo: Ash1eyC0des/b-r-computers-blog
+  repo: Ash1eyC0des/B-R-Computers
   branch: main
 
 media_folder: static/images
@@ -9,7 +9,7 @@ public_folder: /images
 collections:
   - name: blog
     label: Blog
-    folder: blog
+    folder: /blog
     create: true
     fields:
       - { name: date, label: Date, widget: datetime }
