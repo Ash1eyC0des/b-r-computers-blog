@@ -1,6 +1,7 @@
 import * as React from 'react'
 import Layout from '../components/layout'
 import { graphql, Link } from 'gatsby'
+const _ = require('lodash')
 
 export default function BlogList({ data, pageContext }) {
 	const posts = data.allMarkdownRemark.edges
@@ -64,13 +65,21 @@ export default function BlogList({ data, pageContext }) {
 								{categories.map((c, i, a) => {
 									if (i !== a.length - 1) {
 										return (
-											<a key={c} className='text-upper' href='/'>
+											<a
+												key={c}
+												className='text-upper'
+												href={`/categories/${_.kebabCase(c)}/`}
+											>
 												{c},{' '}
 											</a>
 										)
 									} else {
 										return (
-											<a key={c} className='text-upper' href='/'>
+											<a
+												key={c}
+												className='text-upper'
+												href={`/categories/${_.kebabCase(c)}/`}
+											>
 												{c}
 											</a>
 										)

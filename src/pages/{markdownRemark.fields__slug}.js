@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/layout'
+const _ = require('lodash')
 
 export default function BlogPostTemplate({ data }) {
 	const { markdownRemark, allMarkdownRemark } = data
@@ -46,13 +47,21 @@ export default function BlogPostTemplate({ data }) {
 					{tags.map((c, i, a) => {
 						if (i !== a.length - 1) {
 							return (
-								<a key={c} className='text-upper' href='/'>
+								<a
+									key={c}
+									className='text-upper'
+									href={`/categories/${_.kebabCase(c)}/`}
+								>
 									{c},{' '}
 								</a>
 							)
 						} else {
 							return (
-								<a key={c} className='text-upper' href='/'>
+								<a
+									key={c}
+									className='text-upper'
+									href={`/categories/${_.kebabCase(c)}/`}
+								>
 									{c}
 								</a>
 							)
