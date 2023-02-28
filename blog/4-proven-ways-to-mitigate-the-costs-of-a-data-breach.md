@@ -6,6 +6,15 @@ tags:
   - Tips and Tricks
 author: Ryan Hertzog
 ---
+<!--\[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<!\[endif]-->
+
 <!--\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
@@ -16,7 +25,7 @@ author: Ryan Hertzog
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
-  <w:TrackMoves/>
+  <w:TrackMoves>false</w:TrackMoves>
   <w:TrackFormatting/>
   <w:PunctuationKerning/>
   <w:ValidateAgainstSchemas/>
@@ -688,8 +697,48 @@ Breaches in the public cloud cost significantly more than those in a hybrid clou
 
 What some may find surprising is that using a hybrid cloud approach was also better than a private cloud.
 
-Source: **<https://thetechnologypress.com/4-proven-ways-to-mitigate-the-costs-of-a-data-breach/>**
+<H3>Put in Place an Incident Response Plan & Practice It</H3>
+
+You don’t need to be a large enterprise to create an incident response (IR) plan. The IR plan is simply a set of instructions. It's for employees to follow should any number of cybersecurity incidents occur.
+
+Here is an example. In the case of ransomware, the first step should be disconnecting the infected device. IR plans improve the speed and effectiveness of a response in the face of a security crisis.
+
+Having a practiced incident response plan reduces the cost of a data breach. It lowers it by an average of $2.66 million per incident.
+
+<H3>Adopt a Zero Trust Security Approach</H3>
+
+Zero trust is a collection of security protocols that work together to fortify a network. An example of a few of these are:
+
+<!--\[if !supportLists]-->·        <!--\[endif]-->Multi-factor authentication
+
+<!--\[if !supportLists]-->·        <!--\[endif]-->Application safelisting
+
+<!--\[if !supportLists]-->·        <!--\[endif]-->Contextual user authentication
+
+Approximately 79% of critical infrastructure organizations haven’t adopted zero trust. Doing so can significantly reduce data breach costs. Organizations that don’t deploy zero trust tactics pay about $1 million more per data breach. 
+
+<H3>Use Tools with Security AI & Automation</H3>
+
+Using the right security tools can make a big difference in the cost incurred during a data breach. Using tools that deploy security AI and automation brought the biggest cost savings.
+
+Data breach expense lowered by 65.2% thanks to security AI and automation solutions. These types of solutions include tools like advanced threat protection (ATP). They can also include applications that hunt out threats and automate the response. 
+
+<H2>How to Get Started Improving Your Cyber Resilience</H2>
+
+Many of these ways to lower data breach costs are simply best practices. You can get started by taking them one at a time and rolling out upgrades to your cybersecurity strategy.
+
+Working with a trusted IT provider, put together a roadmap. Address the “low-hanging fruit” first. Then, move on to longer-term projects.
+
+As an example, “low-hanging fruit” would be putting multi-factor authentication in place. It’s low-cost and easy to put in place. It also significantly reduces the risk of a cloud breach.
+
+A longer-term project might be creating an incident response plan. Then, you would set up a schedule to have your team drill on the plan regularly. During those drills, you could work out any kinks.
+
+<H2>Need Help Improving Your Security & Reducing Risk?</H2>
+
+Working with a trusted IT partner takes a lot of the security burden off your shoulders. Give us a call today to schedule a chat about a cybersecurity roadmap.
 
  
+
+**Article used with permission from [The Technology Press.](https://thetechnologypress.com/4-proven-ways-to-mitigate-the-costs-of-a-data-breach/)**
 
 <!--EndFragment-->
