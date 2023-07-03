@@ -6,13 +6,13 @@ tags:
   - How Tos
 author: "Ryan Hertzog "
 ---
-<!--\\[if gte mso 9]><xml>
+<!--\\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\\[endif]-->
+</xml><!\\\[endif]-->
 
-<!--\\[if gte mso 9]><xml>
+<!--\\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -51,9 +51,9 @@ author: "Ryan Hertzog "
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\\[endif]-->
+</xml><!\\\[endif]-->
 
-<!--\\[if gte mso 9]><xml>
+<!--\\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -632,9 +632,9 @@ author: "Ryan Hertzog "
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\\[endif]-->
+</xml><!\\\[endif]-->
 
-<!--\\[if gte mso 10]>
+<!--\\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -661,7 +661,7 @@ author: "Ryan Hertzog "
 	mso-bidi-theme-font:minor-bidi;
 	mso-ansi-language:EN-AU;}
 </style>
-<!\\[endif]-->
+<!\\\[endif]-->
 
 <!--StartFragment-->
 
@@ -699,15 +699,15 @@ Organizations should educate their employees about the risks of BEC. This includ
 
 Training should also include email account security, including:
 
-<!--\\[if !supportLists]-->·        <!--\\[endif]-->Checking their sent folder regularly for any strange messages
+·Checking their sent folder regularly for any strange messages
 
-<!--\\[if !supportLists]-->·        <!--\\[endif]-->Using a strong email password with at least 12 characters
+·Using a strong email password with at least 12 characters
 
-<!--\\[if !supportLists]-->·        <!--\\[endif]-->Changing their email password regularly
+·Changing their email password regularly
 
-<!--\\[if !supportLists]-->·        <!--\\[endif]-->Storing their email password in a secure manner
+·Storing their email password in a secure manner
 
-<!--\\[if !supportLists]-->·        <!--\\[endif]-->Notifying an IT contact if they suspect a phishing email
+·Notifying an IT contact if they suspect a phishing email
 
 <H3>Enable Email Authentication</H3>
 
@@ -715,11 +715,11 @@ Organizations should implement email authentication protocols.
 
 This includes:
 
-<!--\\[if !supportLists]-->·        <!--\\[endif]-->Domain-based Message Authentication, Reporting, and Conformance (DMARC)
+·Domain-based Message Authentication, Reporting, and Conformance (DMARC)
 
-<!--\\[if !supportLists]-->·        <!--\\[endif]-->Sender Policy Framework (SPF)
+·Sender Policy Framework (SPF)
 
-<!--\\[if !supportLists]-->·        <!--\\[endif]-->DomainKeys Identified Mail (DKIM)
+·DomainKeys Identified Mail (DKIM)
 
 These protocols help verify the authenticity of the sender's email address. They also reduce the risk of email spoofing. Another benefit is to keep your emails from ending up in junk mail folders.
 
