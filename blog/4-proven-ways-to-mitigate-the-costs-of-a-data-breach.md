@@ -6,22 +6,22 @@ tags:
   - Tips and Tricks
 author: Ryan Hertzog
 ---
-<!--\[if !mso]>
+<!--\\[if !mso]>
 <style>
 v\:* {behavior:url(#default#VML);}
 o\:* {behavior:url(#default#VML);}
 w\:* {behavior:url(#default#VML);}
 .shape {behavior:url(#default#VML);}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -60,9 +60,9 @@ w\:* {behavior:url(#default#VML);}
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -641,9 +641,9 @@ w\:* {behavior:url(#default#VML);}
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 10]>
+<!--\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -669,7 +669,7 @@ w\:* {behavior:url(#default#VML);}
 	mso-bidi-font-family:"Times New Roman";
 	mso-bidi-theme-font:minor-bidi;}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
 <!--StartFragment-->
 
@@ -709,11 +709,11 @@ Having a practiced incident response plan reduces the cost of a data breach. It 
 
 Zero trust is a collection of security protocols that work together to fortify a network. An example of a few of these are:
 
-<!--\[if !supportLists]-->·        <!--\[endif]-->Multi-factor authentication
+·Multi-factor authentication
 
-<!--\[if !supportLists]-->·        <!--\[endif]-->Application safelisting
+·Application safelisting
 
-<!--\[if !supportLists]-->·        <!--\[endif]-->Contextual user authentication
+·Contextual user authentication
 
 Approximately 79% of critical infrastructure organizations haven’t adopted zero trust. Doing so can significantly reduce data breach costs. Organizations that don’t deploy zero trust tactics pay about $1 million more per data breach. 
 
@@ -736,8 +736,6 @@ A longer-term project might be creating an incident response plan. Then, you wou
 <H2>Need Help Improving Your Security & Reducing Risk?</H2>
 
 Working with a trusted IT partner takes a lot of the security burden off your shoulders. Give us a call today to schedule a chat about a cybersecurity roadmap.
-
- 
 
 **Article used with permission from [The Technology Press.](https://thetechnologypress.com/4-proven-ways-to-mitigate-the-costs-of-a-data-breach/)**
 
