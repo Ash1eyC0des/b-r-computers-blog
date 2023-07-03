@@ -6,13 +6,13 @@ tags:
   - Tips and Tricks
 author: "Ryan Hertzog "
 ---
-<!--\\[if gte mso 9]><xml>
+<!--\\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\\[endif]-->
+</xml><!\\\[endif]-->
 
-<!--\\[if gte mso 9]><xml>
+<!--\\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -51,9 +51,9 @@ author: "Ryan Hertzog "
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\\[endif]-->
+</xml><!\\\[endif]-->
 
-<!--\\[if gte mso 9]><xml>
+<!--\\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -632,9 +632,9 @@ author: "Ryan Hertzog "
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\\[endif]-->
+</xml><!\\\[endif]-->
 
-<!--\\[if gte mso 10]>
+<!--\\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -661,7 +661,7 @@ author: "Ryan Hertzog "
 	mso-bidi-theme-font:minor-bidi;
 	mso-ansi-language:EN-AU;}
 </style>
-<!\\[endif]-->
+<!\\\[endif]-->
 
 <!--StartFragment-->
 
@@ -683,13 +683,13 @@ The plan should outline the steps the business will take in the event of an emer
 
 Small businesses should always maintain adequate insurance coverage. This protects them from unexpected events. Insurance policies should include things like:
 
-<!--\\[if !supportLists]-->·        <!--\\[endif]-->Liability coverage
+·Liability coverage
 
-<!--\\[if !supportLists]-->·        <!--\\[endif]-->Property damage coverage
+·Property damage coverage
 
-<!--\\[if !supportLists]-->·        <!--\\[endif]-->Business interruption coverage
+·Business interruption coverage
 
-<!--\\[if !supportLists]-->·        <!--\\[endif]-->Data breach costs
+·Data breach costs
 
 Business interruption coverage is particularly important. It can help cover lost income and expenses during a disruption. Such as a natural disaster or supply chain disruption.
 
