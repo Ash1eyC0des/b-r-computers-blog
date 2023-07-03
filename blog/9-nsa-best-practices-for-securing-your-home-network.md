@@ -6,14 +6,14 @@ tags:
   - How Tos
 author: "Ryan Hertzog "
 ---
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:RelyOnVML/>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -52,9 +52,9 @@ author: "Ryan Hertzog "
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -633,9 +633,9 @@ author: "Ryan Hertzog "
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 10]>
+<!--\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -662,7 +662,7 @@ author: "Ryan Hertzog "
 	mso-bidi-theme-font:minor-bidi;
 	mso-ansi-language:EN-AU;}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
 <!--StartFragment-->
 
@@ -702,13 +702,13 @@ Most routers come with a range of services that manufacturers enable by default.
 
 Your Wi-Fi network is one of the most critical aspects of your home network. Securing your Wi-Fi network involves several steps. These include:
 
-<!--\[if !supportLists]-->·        <!--\[endif]-->Changing the default SSID (network name)
+·Changing the default SSID (network name)
 
-<!--\[if !supportLists]-->·        <!--\[endif]-->Disabling SSID broadcast
+·Disabling SSID broadcast
 
-<!--\[if !supportLists]-->·        <!--\[endif]-->Enabling MAC address filtering
+·Enabling MAC address filtering
 
-<!--\[if !supportLists]-->·        <!--\[endif]-->Disabling WPS (Wi-Fi Protected Setup)
+·Disabling WPS (Wi-Fi Protected Setup)
 
 These steps can help prevent unauthorized access to your Wi-Fi network. If you need help with these steps, just let us know. We can save you some time and frustration and ensure your network is properly secured.
 
