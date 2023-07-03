@@ -6,13 +6,13 @@ tags:
   - How Tos
 author: "Ryan Hertzog "
 ---
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -51,9 +51,9 @@ author: "Ryan Hertzog "
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -632,9 +632,9 @@ author: "Ryan Hertzog "
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 10]>
+<!--\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -661,7 +661,7 @@ author: "Ryan Hertzog "
 	mso-bidi-theme-font:minor-bidi;
 	mso-ansi-language:EN-AU;}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
 <!--StartFragment-->
 
@@ -691,13 +691,13 @@ Another category of threats could be physical breaches or insider threats. This 
 
 Remember, threats aren’t always malicious. Human error causes approximately [88% of](https://blog.knowbe4.com/88-percent-of-data-breaches-are-caused-by-human-error) data breaches. So, ensure you’re aware of mistake-related threats, such as:
 
-<!--\[if !supportLists]-->·        <!--\[endif]-->The use of weak passwords
+·The use of weak passwords
 
-<!--\[if !supportLists]-->·        <!--\[endif]-->Unclear cloud use policies
+·Unclear cloud use policies
 
-<!--\[if !supportLists]-->·        <!--\[endif]-->Lack of employee training
+·Lack of employee training
 
-<!--\[if !supportLists]-->·        <!--\[endif]-->Poor or non-existent BYOD policies
+·Poor or non-existent BYOD policies
 
 <H3>Assess Likelihood and Impact</H3>
 
@@ -711,15 +711,15 @@ Prioritize risk management strategies next. Base this on the likelihood and impa
 
 Some common strategies to consider include implementing:
 
-<!--\[if !supportLists]-->·        <!--\[endif]-->Access controls
+·Access controls
 
-<!--\[if !supportLists]-->·        <!--\[endif]-->Firewalls
+·Firewalls
 
-<!--\[if !supportLists]-->·        <!--\[endif]-->Intrusion detection systems
+·Intrusion detection systems
 
-<!--\[if !supportLists]-->·        <!--\[endif]-->Employee training and awareness programs
+·Employee training and awareness programs
 
-<!--\[if !supportLists]-->·        <!--\[endif]-->Endpoint device management
+·Endpoint device management
 
 Businesses must also determine which strategies are most cost-effective. They should also align with their business goals.
 
