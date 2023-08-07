@@ -6,13 +6,13 @@ tags:
   - General Software
 author: Ryan Hertzog
 ---
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -51,9 +51,9 @@ author: Ryan Hertzog
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -632,9 +632,9 @@ author: Ryan Hertzog
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 10]>
+<!--\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -661,7 +661,7 @@ author: Ryan Hertzog
 	mso-bidi-theme-font:minor-bidi;
 	mso-ansi-language:EN-AU;}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
 <!--StartFragment-->
 
@@ -671,8 +671,7 @@ Is it okay to leave your smartphone charging overnight? Do [Macs get viruses](ht
 
 Common tech myths can often lead to misunderstandings. They can even hinder your ability to fully use various tools and devices. In this blog post, we will debunk some of the most common tech myths that continue to circulate. We’ll also explore the truth behind them.
 
-<H3>Myth 1: Leaving your device plugged in overnight damages the\
-battery</H3>
+<H3>Myth 1: Leaving your device plugged in overnight damages the battery</H3>
 
 First is one of the most persistent tech myths. Leaving your device plugged in overnight will harm the battery life. But this myth is largely outdated.
 
