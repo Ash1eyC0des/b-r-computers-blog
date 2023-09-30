@@ -1,7 +1,7 @@
 ---
 date: 2023-09-30T17:36:51.144Z
 image: /images/ttt_blog-post-social-media-image-9-reasons-to-use-airplane-mode-v3.png
-title: 9 Reasons to Use Airplane Mode  Even If You’re Not Traveling
+title: 9 Reasons to Use Airplane Mode  Even If You Are Not Traveling
 tags:
   - How Tos
 author: Ryan Hertzog
