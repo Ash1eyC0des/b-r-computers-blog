@@ -1,9 +1,9 @@
-import * as React from 'react'
-import { useStaticQuery, graphql, Link } from 'gatsby'
-import { StaticImage } from 'gatsby-plugin-image'
-import brSmall from '../images/br-small.webp'
-import ScrollButton from './ScrollButton'
-const _ = require('lodash')
+import * as React from 'react';
+import { useStaticQuery, graphql, Link } from 'gatsby';
+import { StaticImage } from 'gatsby-plugin-image';
+import brSmall from '../images/br-small.webp';
+import ScrollButton from './ScrollButton';
+const _ = require('lodash');
 
 const Layout = ({ pageTitle, children }) => {
 	const data = useStaticQuery(graphql`
@@ -14,11 +14,11 @@ const Layout = ({ pageTitle, children }) => {
 				}
 			}
 		}
-	`)
+	`);
 
-	const tags = data.allMarkdownRemark.group
+	const tags = data.allMarkdownRemark.group;
 
-	const copyrightYear = new Date().getFullYear()
+	const copyrightYear = new Date().getFullYear();
 
 	return (
 		<>
@@ -57,7 +57,7 @@ const Layout = ({ pageTitle, children }) => {
 										href='https://g.page/BRComputers?share'
 										target='_blank'
 									>
-										363 East Main Street, Kutztown, PA 19530
+										7 South Kemp Road, Kutztown, PA 19530
 									</a>
 								</div>
 
@@ -430,7 +430,7 @@ const Layout = ({ pageTitle, children }) => {
 												&nbsp;&nbsp;&nbsp;&nbsp;{tag.fieldValue}
 											</Link>
 										</li>
-									)
+									);
 								})}
 								{/* <li>
 									<a href='../categories/custom-desktops'>
@@ -742,7 +742,7 @@ const Layout = ({ pageTitle, children }) => {
 				</footer>
 			</body>
 		</>
-	)
-}
+	);
+};
 
-export default Layout
+export default Layout;
